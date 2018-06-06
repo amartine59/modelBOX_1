@@ -1,0 +1,42 @@
+:root{
+    --purple: #830083;
+}
+body{
+    margin: 0;
+    border: 3px solid var(--purple);
+    text-align: center;
+    font-size: 14px;
+    padding: 30px;
+}
+
+h2{
+    margin: 0;
+}
+
+.d-flex{display: flex;}
+.justify-between{justify-content: space-between;}
+
+.content{
+    width: 920px;
+    margin: 0 auto;
+}
+
+header{
+    border: 3px solid #170076;
+    padding: 34px 0;
+    margin-bottom: 10px;
+}
+
+.wrapper{
+    padding: 25px 12px 8px;
+    border: 3px solid #008200;
+}
+.main-wrapper{
+    border: 3px solid #d9dd00;
+    width: 100%;
+    padding: 200px 0;
+    margin-right: 11px;
+}
+.sidebar-wrapper{
+    width: 100%;
+}
