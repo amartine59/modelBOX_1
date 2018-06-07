@@ -8,7 +8,7 @@ body{
     text-align: center;
     font-size: 14px;
     padding: 30px;
-    width: 100%;
+    
 }
 
 h2{
@@ -37,14 +37,12 @@ h2{
 .main-wrapper{
     border: 3px solid #d9dd00;
     width: 100%;
-    padding: 200px 0;
     margin-right: 11px;
 }
 .sidebar-wrapper{
     border: 3px solid black;
     width: 100%;
-    
-
+    padding: 10px;
 }
 
 .justify-content{justify-content: center;}
@@ -53,19 +51,17 @@ h2{
 .sidebar-3{
     height: 120px;
     border: 3px solid orange;
-    margin:0px 10px 10px 10px;
+    margin-bottom: 10px;
     
 }
 
 .sidebar-1-and-2{
-    padding-left: 11px;
-    padding-right: 11px;
+    margin-bottom: 15px;
 }
 .sidebar-1{
     height: 290px;
     border: 3px solid red;
     margin-right: 4px;
-    margin-bottom: 10px;
     width: 100%;
 }
 
