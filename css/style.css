@@ -1,12 +1,14 @@
 :root{
     --purple: #830083;
 }
+
 body{
     margin: 0;
     border: 3px solid var(--purple);
     text-align: center;
     font-size: 14px;
     padding: 30px;
+    
 }
 
 h2{
@@ -15,6 +17,9 @@ h2{
 
 .d-flex{display: flex;}
 .justify-between{justify-content: space-between;}
+
+
+
 
 .content{
     width: 920px;
@@ -30,6 +35,7 @@ header{
 .wrapper{
     padding: 25px 12px 8px;
     border: 3px solid #008200;
+    margin-bottom: 10px;
 }
 .main-wrapper{
     border: 3px solid #d9dd00;
@@ -38,5 +44,46 @@ header{
     margin-right: 11px;
 }
 .sidebar-wrapper{
+    border: 3px solid black;
+    width: 100%;
+    
+
+}
+
+.justify-content{justify-content: center;}
+.align-items{align-items: center;}
+
+.sidebar-3{
+    height: 120px;
+    border: 3px solid orange;
+    margin:0px 10px 10px 10px;
+    
+}
+
+.sidebar-1-and-2{
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.sidebar-1{
+    height: 290px;
+    border: 3px solid red;
+    margin-right: 4px;
+    margin-bottom: 10px;
     width: 100%;
 }
+
+.sidebar-2{
+    height: 290px;
+    border: 3px solid pink;
+    width: 100%;
+}
+
+.footer-wrapper{
+    padding: 34px 0;
+    margin-bottom: 10px;
+    border: 3px solid brown;
+    
+}
+
+
+
