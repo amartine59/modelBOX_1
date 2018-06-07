@@ -1,13 +1,16 @@
 :root{
     --purple: #830083;
 }
-
+html{
+    width: 1920px;
+}
 body{
     margin: 0;
     border: 3px solid var(--purple);
     text-align: center;
     font-size: 14px;
     padding: 30px;
+    
     
 }
 
@@ -17,7 +20,7 @@ h2{
 
 .d-flex{display: flex;}
 .justify-between{justify-content: space-between;}
-.justify-flex-end{justify-content: flex-end;}
+/*.justify-flex-end{justify-content: flex-end;}*/
 
 .content{
     width: 920px;
