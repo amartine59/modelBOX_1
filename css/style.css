@@ -1,17 +1,14 @@
 :root{
     --purple: #830083;
 }
-html{
-    width: 1920px;
-}
+
 body{
     margin: 0;
     border: 3px solid var(--purple);
     text-align: center;
     font-size: 14px;
     padding: 30px;
-    
-    
+    min-width: 920px;    
 }
 
 h2{
