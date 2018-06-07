@@ -8,7 +8,7 @@ body{
     text-align: center;
     font-size: 14px;
     padding: 30px;
-    
+    width: 100%;
 }
 
 h2{
@@ -17,9 +17,6 @@ h2{
 
 .d-flex{display: flex;}
 .justify-between{justify-content: space-between;}
-
-
-
 
 .content{
     width: 920px;
